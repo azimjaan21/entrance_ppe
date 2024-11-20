@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Person', 'goggles', 'helmet', 'no-goggles', 'no-helmet', 'no-vest', 'vest']
+
+roboflow:
+  workspace: lilin-y1lc6
+  project: ppe-detection-helm-goggles
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/lilin-y1lc6/ppe-detection-helm-goggles/dataset/3
