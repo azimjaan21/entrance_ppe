@@ -3,7 +3,7 @@ import torch
 
 def validate_model():
     # Load the trained model
-    model = YOLO(r'######################################')
+    model = YOLO(r'C:\Users\dalab\Desktop\azimjaan21\SafeFactory System\SafeFactory Object Detection\entrance_ppe\ppe_entrance.pt')
 
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     print(f"Running validation on device: {device}")

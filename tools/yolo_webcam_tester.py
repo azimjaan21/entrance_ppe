@@ -2,10 +2,10 @@ import cv2
 from ultralytics import YOLO
 
  #my custom YOLOv8
-model = YOLO("#########################") 
+model = YOLO(r"C:\Users\dalab\Desktop\azimjaan21\SafeFactory System\SafeFactory Object Detection\entrance_ppe\ppe_entrance.pt") 
 
 #webcam
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 
 if not cap.isOpened():

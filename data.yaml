@@ -1,6 +1,6 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: C:\Users\dalab\Desktop\azimjaan21\SafeFactory System\Datasets\PPE - Entrance\train\images
+val: C:\Users\dalab\Desktop\azimjaan21\SafeFactory System\Datasets\PPE - Entrance\valid\images
+test: C:\Users\dalab\Desktop\azimjaan21\SafeFactory System\Datasets\PPE - Entrance\test\images
 
 nc: 7
 names: ['Person', 'goggles', 'helmet', 'no-goggles', 'no-helmet', 'no-vest', 'vest']

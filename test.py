@@ -2,11 +2,11 @@
 from ultralytics import YOLO
 import os
 
-model = YOLO('######################')
+model = YOLO(r'C:\Users\dalab\Desktop\azimjaan21\SafeFactory System\SafeFactory Object Detection\entrance_ppe\ppe_entrance.pt')
 
 
-image_path = r'C:\Users\dalab\Desktop\azimjaan21\SafeFactory System\21'
-output_folder = r'C:\Users\dalab\Desktop\azimjaan21\SafeFactory System\ppe\YOLO Pred'
+image_path = r'C:\Users\dalab\Desktop\azimjaan21\SafeFactory System\SafeFactory Object Detection\entrance_ppe\predict_samples\1.jpg'
+output_folder = r'C:\Users\dalab\Desktop\azimjaan21\SafeFactory System\SafeFactory Object Detection\entrance_ppe\YOLO Pred'
 os.makedirs(output_folder, exist_ok=True)
 
 # Run model prediction
